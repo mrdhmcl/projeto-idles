@@ -144,3 +144,27 @@ section#crawler{
     background-image: url('imagens/crawler.jpg');
     background-position: center right;
 }
+
+footer{
+    width: 100%;
+    margin: 3255px 0 0 0;
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    font-size: 1.1vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
