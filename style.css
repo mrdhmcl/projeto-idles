@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url(//db.onlinewebfonts.com/c/615ebd2bd72c443cdfe3991532f0df4f?family=Programme+Regular);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+   color: black; 
+}
+
+header{
+    position: relative;
+}
+
+div#logo{
+    margin-top: 50px;
+    display: inline-block;
+    height: 98vw;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    background-image: url('imagens/logo03.png');
+    background-size: 14vw 10vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main{
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+    font-family: 'Programme', sans-serif;
+    font-weight: lighter;
+}
+
+section.parallax{
+    width: 100vw;
+    line-height: 2em;
+    padding-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section.parallax > h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.426);
+}
+
+section.parallax > p{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 5px;
+    font-size: 2.0vw;
+    line-height: 1.4em;
+    background-color: rgba(59, 59, 59, 0.497);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.426);
+    color: white; 
+}
+
+section#banda{
+    width: 100vw;
+    height: 50vw;
+    background-image: url('imagens/band.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.brutalism{
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+section.noparallax > p{
+    margin-left: 30px;
+    color: black;
+    font-size: 1.5vw;
+}
+
+section > p.final{
+    margin-bottom: 75px;
+}
+
+section.noparallax > h1{
+    display: inline-block;
+    padding-left: 192px;
+    padding-top: 70px;
+    color: black;
+    font-size: 2vw;
+}
+
+section#joy{
+    background-image: url('imagens/joy02.jpg');
+    background-position: center top;
+}
+
+div.ultra-mono{
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 587px;
+    margin-bottom: 50px;
+}
+
+section.noparallaxleft > p{
+    text-align: right;
+    margin-right: 50px;
+    color: black;
+    font-size: 1.5vw;
+}
+
+section.noparallaxleft > h1{
+    display: inline-block;
+    margin-left: 270px;
+    padding-top: 70px;
+    color: black;
+    font-size: 2vw;
+}
+
+section > p.finall{
+    margin-bottom: 100px;
+}
+
+section#crawler{
+    background-image: url('imagens/crawler.jpg');
+    background-position: center right;
+}
